@@ -22,4 +22,4 @@ jobs:
 ### Inputs
 
 - **tag_name** _(required)_ - The name of the tag you want to create or update.
-- **update_if_exists** _(optional)_ - Push tag even if it already exists on the remote. Default: false.
+- **update_if_exists** _(optional)_ - Push tag even if it already exists on the remote. Default: true.

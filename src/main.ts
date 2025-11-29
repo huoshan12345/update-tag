@@ -6,7 +6,7 @@ async function run() {
     const { GITHUB_SHA } = process.env;
     let { GITHUB_TOKEN } = process.env;
     const tagName = core.getInput('tag_name');
-    const updateIfExists = core.getBooleanInput('update_if_exists');
+    const updateIfExists = core.getInput('update_if_exists') !== 'false';
     if (!GITHUB_SHA) {
       core.setFailed('Missing GITHUB_SHA');
       return;
