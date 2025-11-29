@@ -6,6 +6,7 @@ async function run() {
     const { GITHUB_SHA } = process.env;
     let { GITHUB_TOKEN } = process.env;
     const tagName = core.getInput('tag_name');
+    const updateIfExists = core.getBooleanInput('update_if_exists');
     if (!GITHUB_SHA) {
       core.setFailed('Missing GITHUB_SHA');
       return;
@@ -40,7 +41,7 @@ async function run() {
         ref: `refs/tags/${tagName}`,
         sha: GITHUB_SHA,
       });
-    } else {
+    } else if (updateIfExists) {
       await octokit.rest.git.updateRef({
         ...github.context.repo,
         ref: `tags/${tagName}`,
