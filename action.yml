@@ -9,6 +9,10 @@ inputs:
     description: "Authorized secret GitHub Personal Access Token. Defaults to github.token"
     required: false
     default: ${{ github.token }}
+  update_if_exists:
+    description: "Whether to update the tag if it already exists"
+    required: false
+    default: "true"
 
 runs:
   using: "node20"
