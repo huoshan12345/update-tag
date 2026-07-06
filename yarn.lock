@@ -190,9 +190,9 @@
     "@octokit/types" "^16.0.0"
 
 "@octokit/request@^10.0.6", "@octokit/request@^10.0.7":
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-10.0.10.tgz#45e46934f3d772f006733be6b5ec18f22e54a00c"
-  integrity sha512-KxNC2pTqqhszMNrf12ZRd4PonRgyJdsM4F/jySiddQK+DsRcfBtUvqn8t7UsyZhnRJHvX46OohDt5N3VqIWC2w==
+  version "10.0.11"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-10.0.11.tgz#a11d8b9bae5f6e868efb7dea946edd855ebb2549"
+  integrity sha512-+s7HUxjfFqOMS9VlIwDffq0MikjSAK0gSpG73W+meAvVAvX4MBrHYTK5Bj3Uot55qFT4gzUtfzE4mGWY4Br8/Q==
   dependencies:
     "@octokit/endpoint" "^11.0.3"
     "@octokit/request-error" "^7.0.2"
@@ -858,9 +858,9 @@ path-key@^3.1.0:
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 picomatch@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.4.tgz#fd6f5e00a143086e074dffe4c924b8fb293b0589"
-  integrity sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.5.tgz#51ea57a17d86f605f81039595fbc40ed06a55fab"
+  integrity sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
